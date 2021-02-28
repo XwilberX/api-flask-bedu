@@ -1,0 +1,11 @@
+flask-bedu/
+
+.vscode/
+
+__pychache__/
+
+server/__pychache__/
+
+server/controllers/__pychache__/
+
+*.sock
