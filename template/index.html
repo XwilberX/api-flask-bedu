@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,46 +13,153 @@
 <body>
     <div class="container my-5">
 
-        <h1 class="my-5">Endpoints</h1>
+        <h1 class="my-3">Endpoints</h1>
+        <hr>
+        <h2>PM10</h2>
 
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ac1" aria-expanded="false" aria-controls="collapseOne">
+                  <span class="badge bg-secondary mx-3">[GET]</span> Consulta para todos los datos de PM10 del 2019
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div id="ac1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong class="mx-5">Endpoint</strong> <code>http://34.73.220.231/api/dpmdiez/primer_año_all</code>
+                  <br>
+                  <strong class="mx-5">Ejemplo</strong> 
+
+                  <div class="container mt-3 my-5"><script src="https://gist.github.com/XwilberX/e5983f291de9480bf567beaf0c20a74c.js"></script></div>
                 </div>
               </div>
             </div>
+
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+                  <span class="badge bg-secondary mx-3">[GET]</span> Consulta una estacion para todos los datos de PM10 del 2019
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong class="mx-5">Endpoint</strong> <code>http://34.73.220.231/api/dpmdiez/primer_año_byes</code>
+                  <br>
+                  <strong class="mx-5">Ejemplo</strong>
+                  
+                  <div class="container mt-3 my-5"><script src="https://gist.github.com/XwilberX/edfad934f2b4a75eae20138873ce8490.js"></script></div>
                 </div>
               </div>
             </div>
+
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+                  <span class="badge bg-secondary mx-3">[GET]</span> Consulta para todos los datos de PM10 del 2020
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong class="mx-5">Endpoint</strong> <code>http://34.73.220.231/api/dpmdiez/segundo_año_all</code>
+                  <br>
+                  <strong class="mx-5">Ejemplo</strong>
+                  
+                  <div class="container mt-3 my-5"><script src="https://gist.github.com/XwilberX/c9411562d6fc02a3cf2c59a2bc4bb086.js"></script></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  <span class="badge bg-secondary mx-3">[GET]</span> Consulta para todos los datos de PM10 del 2020
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong class="mx-5">Endpoint</strong> <code>http://34.73.220.231/api/dpmdiez/segundo_año_byes</code>
+                  <br>
+                  <strong class="mx-5">Ejemplo</strong>
+                  
+                  <div class="container mt-3 my-5"><script src="https://gist.github.com/XwilberX/609cd12b9fc5819367a0daaf78dd6e15.js"></script></div>
                 </div>
               </div>
             </div>
         </div>
+
+        <hr>
+
+        <h2>PM2.5</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                <span class="badge bg-secondary mx-3">[GET]</span> Consulta para todos los datos de PM2.5 del 2019
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="mx-5">Endpoint</strong> <code>http://34.73.220.231/api/dpmdos/primer_año_all</code>
+                <br>
+                <strong class="mx-5">Ejemplo</strong> 
+
+                <div class="container mt-3 my-5"><script src="https://gist.github.com/XwilberX/624b150d36361c453c6ea885ad9764f8.js"></script></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                <span class="badge bg-secondary mx-3">[GET]</span> Consulta una estacion para todos los datos de PM2.5 del 2019
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="mx-5">Endpoint</strong> <code>http://34.73.220.231/api/dpmdos/primer_año_byes</code>
+                <br>
+                <strong class="mx-5">Ejemplo</strong>
+                
+                <div class="container mt-3 my-5"><script src="https://gist.github.com/XwilberX/249cf0db14d24ac99f8cf8fcedd8f277.js"></script></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading7">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                <span class="badge bg-secondary mx-3">[GET]</span> Consulta para todos los datos de PM2.5 del 2020
+              </button>
+            </h2>
+            <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="mx-5">Endpoint</strong> <code>http://34.73.220.231/api/dpmdos/segundo_año_all</code>
+                <br>
+                <strong class="mx-5">Ejemplo</strong>
+                
+                <div class="container mt-3 my-5"><script src="https://gist.github.com/XwilberX/56e97d2b34497e95e0db6edbe31699a4.js"></script></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading8">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                <span class="badge bg-secondary mx-3">[GET]</span> Consulta para todos los datos de PM2.5 del 2020
+              </button>
+            </h2>
+            <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="mx-5">Endpoint</strong> <code>http://34.73.220.231/api/dpmdos/segundo_año_byes</code>
+                <br>
+                <strong class="mx-5">Ejemplo</strong>
+                
+                <div class="container mt-3 my-5"><script src="https://gist.github.com/XwilberX/ac678323113644ba21d8b6894f07a11a.js"></script></div>
+              </div>
+            </div>
+          </div>
+      </div>
+        
     </div>
 
 
