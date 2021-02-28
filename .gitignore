@@ -2,10 +2,10 @@ flask-bedu/
 
 .vscode/
 
-__pychache__/
+__pycache__/
 
-server/__pychache__/
+server/__pycache__/
 
-server/controllers/__pychache__/
+server/controllers/__pycache__/
 
 *.sock
